@@ -154,7 +154,7 @@ At 60 mm and 80 mm gaps, the third-party charger could not operate reliably. For
 2. **Efficiency Estimation:** Efficiency was derived from 20 mm SoC 20% datasets using:
 
    $$
-   \eta = \frac{P_{\text{sout}}}{P_{\text{sin}}}
+   \eta_{\text{charger}} = \frac{P_{\text{sout}}}{P_{\text{sin}}}
    $$
 
    A normal distribution was fitted to the derived efficiencies and sampled to generate each row.
