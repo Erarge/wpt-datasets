@@ -165,7 +165,7 @@ At 60 mm and 80 mm gaps, the third-party charger could not operate reliably. For
    * `a_sout_a` was calculated as:
 
 $$
-a_{\text{sout\_a}} = \frac{P_{\text{sin}} \times \eta_{\text{charger}}}{48}
+a_{\text{sout\_a}} = \frac{P_{\text{sin}} \times \eta_{\text{charger}}}{48\,\text{V}}
 $$
 
 4. **Input Data Source:** `v_pri_v`, `a_pri_a`, `v_sin_v`, and `a_sin_a` were directly sampled row-by-row from real 10-minute runs performed at **60 mm** and **80 mm** respectively.
